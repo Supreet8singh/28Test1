@@ -5,7 +5,7 @@
     <classes>
       <class name="mainScript.DriverScript">
         <methods>
-          <include name="tc02"/>
+          <include name="tc04"/>
         </methods>
       </class> <!-- mainScript.DriverScript -->
     </classes>

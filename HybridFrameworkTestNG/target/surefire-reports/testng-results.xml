@@ -74,19 +74,13 @@
       <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
     </line>
     <line>
-      <![CDATA[Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span]]>
-    </line>
-    <line>
-      <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
-    </line>
-    <line>
       <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]]]>
     </line>
     <line>
       <![CDATA[Element clicked at Locator  xpath://*[@id='bookFlightTab']/form/div[7]/div[6]/button/span[1]]]>
     </line>
     <line>
-      <![CDATA[TC02 Failed]]>
+      <![CDATA[Fetched the value from Locator  xpath://*[@id='bookingWidgetContainer']/div/div/div/div[2]/div[3]/div/div[1]/span]]>
     </line>
     <line>
       <![CDATA[Element clicked at Locator  linktext:Contact us]]>
@@ -98,24 +92,15 @@
       <![CDATA[Fetched the value from Locator  xpath:/html/body/div[6]/div[1]/div[1]/div/div[1]/div/div[1]/p[1]]]>
     </line>
     <line>
-      <![CDATA[Hovered the value at Locator  linktext:Manage]]>
-    </line>
-    <line>
-      <![CDATA[Hovered and clicked the value at Locator  linktext:Lounge Services]]>
-    </line>
-    <line>
-      <![CDATA[Entered the value at Locator  xpath://a[starts-with(@class,'ac_closed acc-lnk panel-title collapsed counterdisplay')]]]>
-    </line>
-    <line>
-      <![CDATA[Closed the browser  ]]>
+      <![CDATA[TC04 Failed]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-09-08T17:49:19Z" name="Suite" finished-at="2019-09-08T17:49:59Z" duration-ms="40212">
+  <suite started-at="2019-09-14T12:51:44Z" name="Suite" finished-at="2019-09-14T12:52:20Z" duration-ms="35842">
     <groups>
     </groups>
-    <test started-at="2019-09-08T17:49:19Z" name="Test" finished-at="2019-09-08T17:49:59Z" duration-ms="40212">
+    <test started-at="2019-09-14T12:51:44Z" name="Test" finished-at="2019-09-14T12:52:20Z" duration-ms="35842">
       <class name="mainScript.DriverScript">
-        <test-method signature="tc01()[pri:1, instance:mainScript.DriverScript@6bbe2511]" started-at="2019-09-08T17:49:19Z" name="tc01" finished-at="2019-09-08T17:49:49Z" duration-ms="30192" status="PASS">
+        <test-method signature="tc01()[pri:1, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:51:44Z" name="tc01" finished-at="2019-09-14T12:52:14Z" duration-ms="30045" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[The URL opened is https://www.goindigo.in/?linkNav=home_header]]>
@@ -190,12 +175,6 @@
               <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
             </line>
             <line>
-              <![CDATA[Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span]]>
-            </line>
-            <line>
-              <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
-            </line>
-            <line>
               <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]]]>
             </line>
             <line>
@@ -203,7 +182,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc01 -->
-        <test-method signature="tc02()[pri:2, instance:mainScript.DriverScript@6bbe2511]" started-at="2019-09-08T17:49:49Z" name="tc02" finished-at="2019-09-08T17:49:49Z" duration-ms="237" status="FAIL">
+        <test-method signature="tc02()[pri:2, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:14Z" name="tc02" finished-at="2019-09-14T12:52:14Z" duration-ms="136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetched the value from Locator  xpath://*[@id='bookingWidgetContainer']/div/div/div/div[2]/div[3]/div/div[1]/span]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method signature="tc03()[pri:3, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:14Z" name="tc03" finished-at="2019-09-14T12:52:19Z" duration-ms="5341" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Element clicked at Locator  linktext:Contact us]]>
+            </line>
+            <line>
+              <![CDATA[Switched to the window id  1]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the value from Locator  xpath:/html/body/div[6]/div[1]/div[1]/div/div[1]/div/div[1]/p[1]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method signature="tc04()[pri:4, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:19Z" name="tc04" finished-at="2019-09-14T12:52:20Z" duration-ms="291" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -214,7 +213,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at mainScript.DriverScript.tc02(DriverScript.java:49)
+at mainScript.DriverScript.tc04(DriverScript.java:87)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -249,36 +248,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[TC02 Failed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc02 -->
-        <test-method signature="tc03()[pri:3, instance:mainScript.DriverScript@6bbe2511]" started-at="2019-09-08T17:49:49Z" name="tc03" finished-at="2019-09-08T17:49:55Z" duration-ms="5738" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Element clicked at Locator  linktext:Contact us]]>
-            </line>
-            <line>
-              <![CDATA[Switched to the window id  1]]>
-            </line>
-            <line>
-              <![CDATA[Fetched the value from Locator  xpath:/html/body/div[6]/div[1]/div[1]/div/div[1]/div/div[1]/p[1]]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc03 -->
-        <test-method signature="tc04()[pri:4, instance:mainScript.DriverScript@6bbe2511]" started-at="2019-09-08T17:49:55Z" name="tc04" finished-at="2019-09-08T17:49:59Z" duration-ms="4007" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Hovered the value at Locator  linktext:Manage]]>
-            </line>
-            <line>
-              <![CDATA[Hovered and clicked the value at Locator  linktext:Lounge Services]]>
-            </line>
-            <line>
-              <![CDATA[Entered the value at Locator  xpath://a[starts-with(@class,'ac_closed acc-lnk panel-title collapsed counterdisplay')]]]>
-            </line>
-            <line>
-              <![CDATA[Closed the browser  ]]>
+              <![CDATA[TC04 Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc04 -->

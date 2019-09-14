@@ -14,7 +14,8 @@ public class ContactUS {
 		System.out.println(add);
 	}
 	
-	public void hoverManageLink() {
+	public void hoverManageLink() throws Exception {
+		Thread.sleep(2000);
 		AK.mouseHoverWithOutCLick(LV.manageLocation_ContactUsPage);
 	}
 	
