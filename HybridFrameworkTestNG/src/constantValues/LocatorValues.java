@@ -16,7 +16,7 @@ public class LocatorValues {
 	public  String contactUsLocation_SearchFlightPage = "linktext:Contact us";
 	
 	public  String CINLocation_ContactUsPage = "xpath:/html/body/div[6]/div[1]/div[1]/div/div[1]/div/div[1]/p[1]";
-	public  String manageLocation_ContactUsPage = "linktext:Manage";
+	public  String manageLocation_ContactUsPage = "xpath://*[@id='navbarSupportedContent']/ul/li[2]/a";
 	public  String loungeServiceLocation_ContactUsPage = "linktext:Lounge Services";
 	
 	public  String allServicesLocation_LoungeServicesPage = "xpath://a[starts-with(@class,'ac_closed acc-lnk panel-title collapsed counterdisplay')]";
