@@ -6,7 +6,7 @@ public class TestData {
 
 	ExcelReadWrite ER = new ExcelReadWrite();
 	
-	public final String sheetPath = "E:\\Eclipse wrokspace\\28TestJuly\\HybridFrameworkTestNG\\Indigo Test Cases.xlsx";
+	public final String sheetPath = "E:\\Eclipse wrokspace\\28TestJulyGIT1\\HybridFrameworkTestNG\\Indigo Test Cases.xlsx";
 	public final String sheetName = "TestCases";
 	public final String testScenariosheet = "Test Scenarios";
 	
