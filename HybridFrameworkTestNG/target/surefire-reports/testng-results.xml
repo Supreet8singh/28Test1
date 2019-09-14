@@ -74,6 +74,12 @@
       <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
     </line>
     <line>
+      <![CDATA[Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span]]>
+    </line>
+    <line>
+      <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
+    </line>
+    <line>
       <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]]]>
     </line>
     <line>
@@ -95,12 +101,12 @@
       <![CDATA[TC04 Failed]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-09-14T12:51:44Z" name="Suite" finished-at="2019-09-14T12:52:20Z" duration-ms="35842">
+  <suite started-at="2019-09-14T12:58:57Z" name="Suite" finished-at="2019-09-14T12:59:35Z" duration-ms="38598">
     <groups>
     </groups>
-    <test started-at="2019-09-14T12:51:44Z" name="Test" finished-at="2019-09-14T12:52:20Z" duration-ms="35842">
+    <test started-at="2019-09-14T12:58:57Z" name="Test" finished-at="2019-09-14T12:59:35Z" duration-ms="38598">
       <class name="mainScript.DriverScript">
-        <test-method signature="tc01()[pri:1, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:51:44Z" name="tc01" finished-at="2019-09-14T12:52:14Z" duration-ms="30045" status="PASS">
+        <test-method signature="tc01()[pri:1, instance:mainScript.DriverScript@495fac5f]" started-at="2019-09-14T12:58:57Z" name="tc01" finished-at="2019-09-14T12:59:27Z" duration-ms="30484" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[The URL opened is https://www.goindigo.in/?linkNav=home_header]]>
@@ -175,6 +181,12 @@
               <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
             </line>
             <line>
+              <![CDATA[Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span]]>
+            </line>
+            <line>
+              <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]]]>
+            </line>
+            <line>
               <![CDATA[Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]]]>
             </line>
             <line>
@@ -182,14 +194,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc01 -->
-        <test-method signature="tc02()[pri:2, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:14Z" name="tc02" finished-at="2019-09-14T12:52:14Z" duration-ms="136" status="PASS">
+        <test-method signature="tc02()[pri:2, instance:mainScript.DriverScript@495fac5f]" started-at="2019-09-14T12:59:27Z" name="tc02" finished-at="2019-09-14T12:59:27Z" duration-ms="210" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Fetched the value from Locator  xpath://*[@id='bookingWidgetContainer']/div/div/div/div[2]/div[3]/div/div[1]/span]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc02 -->
-        <test-method signature="tc03()[pri:3, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:14Z" name="tc03" finished-at="2019-09-14T12:52:19Z" duration-ms="5341" status="PASS">
+        <test-method signature="tc03()[pri:3, instance:mainScript.DriverScript@495fac5f]" started-at="2019-09-14T12:59:27Z" name="tc03" finished-at="2019-09-14T12:59:33Z" duration-ms="5552" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Element clicked at Locator  linktext:Contact us]]>
@@ -202,7 +214,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc03 -->
-        <test-method signature="tc04()[pri:4, instance:mainScript.DriverScript@6127a7e]" started-at="2019-09-14T12:52:19Z" name="tc04" finished-at="2019-09-14T12:52:20Z" duration-ms="291" status="FAIL">
+        <test-method signature="tc04()[pri:4, instance:mainScript.DriverScript@495fac5f]" started-at="2019-09-14T12:59:33Z" name="tc04" finished-at="2019-09-14T12:59:35Z" duration-ms="2309" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
