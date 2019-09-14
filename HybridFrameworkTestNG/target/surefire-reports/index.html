@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc04">tc04</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc01">tc01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc02">tc02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc03">tc03</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -116,17 +126,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc01">tc01</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc02">tc02</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc03">tc03</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="mainScript.DriverScript" class="method navigator-link" hash-for-method="tc04">tc04</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -149,11 +149,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc04">
-                  </a> <!-- tc04 -->
-                  <span class="method-name">tc04</span>
+                  <a name="tc01">
+                  </a> <!-- tc01 -->
+                  <span class="method-name">tc01</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at mainScript.DriverScript.tc04(DriverScript.java:87)
+	at mainScript.DriverScript.tc01(DriverScript.java:34)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02">
+                  </a> <!-- tc02 -->
+                  <span class="method-name">tc02</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mainScript.DriverScript.tc02(DriverScript.java:53)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03">
+                  </a> <!-- tc03 -->
+                  <span class="method-name">tc03</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at mainScript.DriverScript.tc03(DriverScript.java:70)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -168,23 +190,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc01">
-                  </a> <!-- tc01 -->
-                  <span class="method-name">tc01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc02">
-                  </a> <!-- tc02 -->
-                  <span class="method-name">tc02</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc03">
-                  </a> <!-- tc03 -->
-                  <span class="method-name">tc03</span>
+                  <a name="tc04">
+                  </a> <!-- tc04 -->
+                  <span class="method-name">tc04</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,24 +253,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'tc01')
 data.setCell(0, 2, 'mainScript.DriverScript')
-data.setCell(0, 3, 30351);
+data.setCell(0, 3, 22897);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc03')
+data.setCell(1, 1, 'tc04')
 data.setCell(1, 2, 'mainScript.DriverScript')
-data.setCell(1, 3, 5480);
+data.setCell(1, 3, 6268);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc04')
+data.setCell(2, 1, 'tc03')
 data.setCell(2, 2, 'mainScript.DriverScript')
-data.setCell(2, 3, 2219);
+data.setCell(2, 3, 1109);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'tc02')
 data.setCell(3, 2, 'mainScript.DriverScript')
-data.setCell(3, 3, 136);
+data.setCell(3, 3, 184);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -274,17 +282,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc03</span>
+              <span class="reporter-method-name">tc04</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element clicked at Locator  linktext:Contact us</span>
-                <span class="reporter-method-output">Switched to the window id  1</span>
-                <span class="reporter-method-output">Fetched the value from Locator  xpath:/html/body/div[6]/div[1]/div[1]/div/div[1]/div/div[1]/p[1]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc02</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Fetched the value from Locator  xpath://*[@id='bookingWidgetContainer']/div/div/div/div[2]/div[3]/div/div[1]/span</span>
+                <span class="reporter-method-output">Hovered the value at Locator  xpath://*[@id='navbarSupportedContent']/ul/li[2]/a</span>
+                <span class="reporter-method-output">Hovered and clicked the value at Locator  linktext:Lounge Services</span>
+                <span class="reporter-method-output">Entered the value at Locator  xpath://a[starts-with(@class,'ac_closed acc-lnk panel-title collapsed counterdisplay')]</span>
+                <span class="reporter-method-output">Closed the browser  </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -310,20 +313,19 @@ return data;
                 <span class="reporter-method-output">Entered the Key at Locator  name:or-src</span>
                 <span class="reporter-method-output">Entered the value at Locator  name:or-dest</span>
                 <span class="reporter-method-output">Entered the Key at Locator  name:or-dest</span>
-                <span class="reporter-method-output">Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span</span>
-                <span class="reporter-method-output">Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]</span>
-                <span class="reporter-method-output">Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span</span>
-                <span class="reporter-method-output">Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]</span>
-                <span class="reporter-method-output">Element clicked at Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/a/span</span>
-                <span class="reporter-method-output">Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[1]</span>
-                <span class="reporter-method-output">Fetched the value from Locator  xpath://*[starts-with(@id,'dp15')]/div/div[2]/div/div/span[2]</span>
-                <span class="reporter-method-output">Element clicked at Locator  xpath://*[@id='bookFlightTab']/form/div[7]/div[6]/button/span[1]</span>
+                <span class="reporter-method-output">TC01 Failed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc04</span>
+              <span class="reporter-method-name">tc02</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">TC04 Failed</span>
+                <span class="reporter-method-output">TC02 Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc03</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TC03 Failed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,22 +345,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">mainScript.DriverScript</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc01</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tc02</span>
-                <span class="method-start">30352 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">tc03</span>
-                <span class="method-start">30489 ms</span>
+                <span class="method-start">22906 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">tc03</span>
+                <span class="method-start">23091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">tc04</span>
-                <span class="method-start">35969 ms</span>
+                <span class="method-start">24200 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
